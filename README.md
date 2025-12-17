@@ -2,7 +2,7 @@
 
 A production-ready ETL pipeline that extracts data from Excel and JSON sources, transforms it in Python, and loads it into Google BigQuery with comprehensive data quality validation.
 
-## 🏗️ Architecture
+##  Architecture
 
 ![ETL Process Diagram](ETL_process.png)
 
@@ -83,7 +83,7 @@ Source Files → Create Dataset → Extract → Transform → Load → Validate 
    - Referential integrity
    - Business rule validation
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Airflow DAG Configuration:
 - **Schedule**: Daily at 2:00 AM UTC
