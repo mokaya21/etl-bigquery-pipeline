@@ -6,7 +6,7 @@ A production-ready ETL pipeline that extracts data from Excel and JSON sources, 
 
 ![ETL Process Diagram](ETL_process.png)
 
-## 📋 Features
+##  Features
 
 - ✅ **Automated Daily Extraction** - Reads from Excel and JSON sources
 - ✅ **Python-based Transformation** - Efficient data cleaning and standardization
@@ -63,7 +63,7 @@ airflow webserver -p 8080
 airflow scheduler
 ```
 
-## 📊 Pipeline Flow
+##  Pipeline Flow
 ```
 Source Files → Create Dataset → Extract → Transform → Load → Validate → Success
                                                               ↓
@@ -95,7 +95,7 @@ Source Files → Create Dataset → Extract → Transform → Load → Validate 
 - `store_sales` - Sales transactions with date, product, units, and amounts
 - `products` - Product catalog with IDs, names, and prices
 
-## 📈 Monitoring
+##  Monitoring
 
 Access the Airflow UI at `http://localhost:8080` to:
 - Monitor DAG runs
@@ -103,7 +103,7 @@ Access the Airflow UI at `http://localhost:8080` to:
 - Check validation reports
 - Manually trigger runs
 
-## 🔍 Data Quality Checks
+##  Data Quality Checks
 
 The pipeline validates:
 - ✅ No empty tables
@@ -114,7 +114,7 @@ The pipeline validates:
 - ✅ No negative values in amounts/quantities
 - ✅ All prices are positive
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Apache Airflow** - Workflow orchestration
 - **Python/Pandas** - Data transformation
