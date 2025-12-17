@@ -4,7 +4,7 @@ A production-ready ETL pipeline that extracts data from Excel and JSON sources, 
 
 ## 🏗️ Architecture
 
-![ETL Pipeline Architecture](diagrams/etl_workflow.png)
+![ETL Process Diagram](ETL_process.png)
 
 ## 📋 Features
 
@@ -83,23 +83,6 @@ Source Files → Create Dataset → Extract → Transform → Load → Validate 
    - Referential integrity
    - Business rule validation
 
-## 🗂️ Project Structure
-```
-etl-bigquery-pipeline/
-├── dags/
-│   └── etl_pipeline.py          # Main Airflow DAG
-├── data/
-│   ├── Store_sales.xlsx         # Sample sales data
-│   └── products.json            # Sample product catalog
-├── diagrams/
-│   └── etl_workflow.png         # Architecture diagram
-├── docs/
-│   └── setup_guide.md           # Detailed setup instructions
-├── .gitignore
-├── README.md
-└── requirements.txt
-```
-
 ## ⚙️ Configuration
 
 ### Airflow DAG Configuration:
@@ -142,8 +125,6 @@ The pipeline validates:
 
 **Simon Mokaya**
 - Email: mokayasimon495@gmail.com
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: https://github.com/mokaya21
 
-## 📄 License
 
-This project is open source and available under the MIT License.
