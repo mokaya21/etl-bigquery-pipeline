@@ -20,7 +20,7 @@ A production-ready ETL pipeline that extracts data from Excel and JSON sources, 
 ### Prerequisites
 
 - Python 3.8+
-- Apache Airflow 2.0+
+- Apache Airflow 2.9.2
 - Google Cloud Project with BigQuery enabled
 - Service account with BigQuery permissions
 
