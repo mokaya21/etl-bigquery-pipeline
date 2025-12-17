@@ -15,7 +15,7 @@ A production-ready ETL pipeline that extracts data from Excel and JSON sources, 
 - ✅ **Airflow Orchestration** - Automated scheduling with retry logic
 - ✅ **Email Alerts** - Notifications on pipeline failures
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -91,7 +91,7 @@ Source Files → Create Dataset → Extract → Transform → Load → Validate 
 - **Email Alerts**: On failure
 - **Execution**: Sequential + Parallel (Excel and JSON paths run in parallel)
 
-### BigQuery Tables:
+###  BigQuery Tables:
 - `store_sales` - Sales transactions with date, product, units, and amounts
 - `products` - Product catalog with IDs, names, and prices
 
@@ -121,7 +121,7 @@ The pipeline validates:
 - **Google BigQuery** - Data warehouse
 - **Google Cloud SDK** - Cloud authentication
 
-## 📧 Contact
+## Contact
 
 **Simon Mokaya**
 - Email: mokayasimon495@gmail.com
