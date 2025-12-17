@@ -106,13 +106,13 @@ Access the Airflow UI at `http://localhost:8080` to:
 ##  Data Quality Checks
 
 The pipeline validates:
-- ✅ No empty tables
-- ✅ Row counts match expected values
-- ✅ No null values in critical columns
-- ✅ No duplicate records
-- ✅ All foreign keys valid
-- ✅ No negative values in amounts/quantities
-- ✅ All prices are positive
+-  No empty tables
+-  Row counts match expected values
+-  No null values in critical columns
+-  No duplicate records
+-  All foreign keys valid
+-  No negative values in amounts/quantities
+-  All prices are positive
 
 ##  Technologies Used
 
