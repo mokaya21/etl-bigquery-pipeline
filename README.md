@@ -8,12 +8,12 @@ A production-ready ETL pipeline that extracts data from Excel and JSON sources, 
 
 ##  Features
 
-- ✅ **Automated Daily Extraction** - Reads from Excel and JSON sources
-- ✅ **Python-based Transformation** - Efficient data cleaning and standardization
-- ✅ **BigQuery Integration** - Loads cleaned data to Google Cloud
-- ✅ **Data Quality Validation** - Comprehensive checks for nulls, duplicates, and referential integrity
-- ✅ **Airflow Orchestration** - Automated scheduling with retry logic
-- ✅ **Email Alerts** - Notifications on pipeline failures
+ ✅ **Automated Daily Extraction** - Reads from Excel and JSON sources
+ ✅ **Python-based Transformation** - Efficient data cleaning and standardization
+ ✅ **BigQuery Integration** - Loads cleaned data to Google Cloud
+ ✅ **Data Quality Validation** - Comprehensive checks for nulls, duplicates, and referential integrity
+ ✅ **Airflow Orchestration** - Automated scheduling with retry logic
+ ✅ **Email Alerts** - Notifications on pipeline failures
 
 ##  Quick Start
 
