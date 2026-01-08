@@ -1,6 +1,6 @@
 # ETL Pipeline: Excel + JSON → Transform → BigQuery
 
-A production-ready ETL pipeline that extracts data from Excel and JSON sources, transforms it in Python, and loads it into Google BigQuery with comprehensive data quality validation.
+An end-to-end ETL pipeline that extracts data from Excel and JSON sources, transforms it in Python, and loads it into Google BigQuery with comprehensive data quality validation.
 
 ##  Architecture
 
