@@ -125,7 +125,6 @@ The pipeline validates:
 
 **Simon Mokaya**
 - Email: mokayasimon495@gmail.com
-- GitHub: https://github.com/mokaya21
 - LinkedIn: www.linkedin.com/in/peter-simon01
 
 
